@@ -39,7 +39,7 @@ const SplashScreen = ({ finishLoading, isVisible }) => {
         isMounted={isMounted}
       >
         <div id="text" className="text-3xl">
-          <span className="font-bold">Miks Gregorio's</span> Portfolio
+          <span className="font-bold">Miks Gregorio&#39;s</span> Portfolio
         </div>
       </div>
     </>

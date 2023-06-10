@@ -16,7 +16,6 @@ export default function ProjectsPage() {
           target="_blank"
           className="flex items-end gap-3 hover:scale-105 hover:opacity-30 "
         >
-          {" "}
           <div className="text-lg font-bold">4th Year Thesis</div>
           <div className="text-6xl">// The Wicket</div>
         </Link>

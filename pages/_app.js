@@ -61,14 +61,13 @@ export default function App({ Component, pageProps, isVisible }) {
     if (isLoading) return;
   }, [isLoading]);
 
-
   return (
     <>
       {isLoading && isHome ? (
         <SplashScreen finishLoading={() => setIsLoading(false)} />
       ) : (
         <motion.div
-          className="flex text-lg gap-2 font-bold flex-col justify-end items-end h-full w-full px-10 py-10 select-none"
+          className="flex text-lg gap-2 flex-col justify-end items-end h-full w-full px-10 py-10 select-none"
           animate={{ opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 0.3 }}
           initial={{ opacity: 0 }}
@@ -88,7 +87,7 @@ export default function App({ Component, pageProps, isVisible }) {
               </div>
               <div
                 // ref={scope}
-                className=" flex flex-row justify-between lg:flex-col lg:justify-center lg:items-center lg:col-span-4 mb-5 lg:mb-0"
+                className=" overflow-hidden overflow-y-scroll no-scrollbar flex flex-row justify-between lg:flex-col lg:justify-center lg:items-center lg:col-span-4 mb-5 lg:mb-0"
               >
                 <Component {...pageProps} />
               </div>

@@ -26,10 +26,10 @@ export default function InfoPage() {
               target="_blank"
               className=" w-fit hover:scale-105 hover:opacity-30 "
             >
-              Linkedin ↗
+              LinkedIn ↗
             </Link>
             <Link
-              href="https://github.com/miks-86"
+              href="https://github.com/Yui-0x"
               target="_blank"
               className=" w-fit hover:scale-105 hover:opacity-30 "
             >
@@ -58,7 +58,7 @@ export default function InfoPage() {
               <span className="font-bold text-xl">▶ Certificates</span>
             </li>
             <li>
-              <span>Information Technology & 24th IT Exhibit</span>
+              <span>Information Technology &#38; 24th IT Exhibit</span>
             </li>
             <li className="indent-1">
               <span className="font-bold">▶ Best Thesis Paper</span>
@@ -77,7 +77,7 @@ export default function InfoPage() {
             </li>
             <li className="indent-1">
               <span className="font-bold">
-                ▶ R&D Conference: Scientific Poster Competition
+                ▶ R&#38;D Conference: Scientific Poster Competition
               </span>
             </li>
             <li>

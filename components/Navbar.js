@@ -43,34 +43,34 @@ export default function Navbar() {
           </p>
         </div>
 
-        <div className="flex flex-row lg:flex-col text-xl font-bold gap-2 w-full">
+        <div className="flex justify-evenly flex-row lg:flex-col text-xl font-bold gap-2 w-full">
           <Link
-            className="w-fit flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
+            className="w-fit lg:flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
             href="/"
           >
             {router.pathname === "/" ? "●" : "Home"}
           </Link>
           <Link
-            className="w-fit flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
+            className="w-fit lg:flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
             href="/projects"
           >
             {router.pathname === "/projects" ? "●" : "Projects"}
           </Link>
           <Link
-            className="w-fit flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
+            className="w-fit lg:flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
             href="/info"
           >
             {router.pathname === "/info" ? "●" : "Info"}
           </Link>
           <Link
-            className="w-fit flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
+            className="w-fit lg:flex-1 justify-center lg:justify-start hover:scale-105 hover:opacity-30"
             href="/contact"
           >
             {router.pathname === "/contact" ? "●" : "Contact"}
           </Link>
         </div>
 
-        <div className=" flex items-end h-full">
+        <div className=" flex items-end lg:h-full">
           <button className="font-bold text-lg">
             <label className="swap swap-rotate">
               <input

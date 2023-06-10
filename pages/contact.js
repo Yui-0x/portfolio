@@ -15,7 +15,7 @@ export default function ContactPage() {
         transition={{ ease: "easeInOut", duration: 0.3 }}
         initial={{ opacity: 0 }}
       >
-        <span className="mb-2 font-bold ">▶ My Contacts</span>
+        <span className="mb-2">▶ My Contacts</span>
         <span>(+63) 920 459 8428</span>
         <Link
           href="mailto:(gregoriomikkie@gmail.com)"
