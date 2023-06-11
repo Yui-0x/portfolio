@@ -13,6 +13,7 @@ specifiers:
   postcss: 8.4.24
   react: 18.2.0
   react-dom: 18.2.0
+  react-use-downloader: ^1.2.4
   rome: ^0.10.1
   styled-components: 6.0.0-rc.3
   tailwindcss: 3.3.2
@@ -32,6 +33,7 @@ dependencies:
   postcss: 8.4.24
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-use-downloader: 1.2.4_react@18.2.0
   styled-components: 6.0.0-rc.3_biqbaboplfbrettd7655fr4n2y
   tailwindcss: 3.3.2
   theme-change: 2.5.0
@@ -3866,6 +3868,15 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: false
+
+  /react-use-downloader/1.2.4_react@18.2.0:
+    resolution: {integrity: sha512-ciPb5SSKaDymZoWdaHrNbJpa20riR0fgUni48cBTseoptAMG8SEATX33UCNPGwnpZ5BFybFdTCus37KLibj8oA==}
+    engines: {node: '>=8', npm: '>=5'}
+    peerDependencies:
+      react: ^17.0.2 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react/18.2.0:

@@ -10,9 +10,9 @@ export default function InfoPage() {
         transition={{ ease: "easeInOut", duration: 0.3 }}
         initial={{ opacity: 0 }}
         id="info"
-        className="flex lg:flex-col w-full h-full"
+        className=" flex flex-col w-full h-full"
       >
-        <div className="flex lg:items-center lg:w-full px-10 py-10 lg:justify-end">
+        <div className="flex lg:items-center w-full px-10 py-10 lg:justify-end">
           <div className="flex flex-col gap-2 font-bold text-lg ">
             <Link
               href="https://www.facebook.com/mikiidesu"
@@ -52,7 +52,7 @@ export default function InfoPage() {
           </div>
         </div>
 
-        <div className="flex lg:px-10 pl-44 py-10 items-end h-full lg:w-full justify-end">
+        <div className="flex px-10 lg:pl-44 py-10 lg:items-end h-full lg:w-full lg:justify-end">
           <ul className="flex flex-col">
             <li className="mb-2">
               <span className="font-bold text-xl">▶ Certificates</span>
@@ -61,42 +61,40 @@ export default function InfoPage() {
               <span>Information Technology &#38; 24th IT Exhibit</span>
             </li>
             <li className="indent-1">
-              <span className="font-bold">▶ Best Thesis Paper</span>
+              <span className="font-bold">Best Thesis Paper</span>
             </li>
             <li className="indent-1">
-              <span className="font-bold">▶ Most Innovative Technology</span>
+              <span className="font-bold">Most Innovative Technology</span>
             </li>
             <li>
               <span>AppCon 2022</span>
             </li>
             <li className="indent-1">
-              <span className="font-bold">▶ Certificate of Participation</span>
+              <span className="font-bold">Certificate of Participation</span>
             </li>
             <li>
               <span>Department of Science and Technology</span>
             </li>
             <li className="indent-1">
               <span className="font-bold">
-                ▶ R&#38;D Conference: Scientific Poster Competition
+                R&#38;D Conference: Scientific Poster Competition
               </span>
             </li>
             <li>
               <span>Great Learning</span>
             </li>
             <li className="indent-1">
-              <span className="font-bold">
-                ▶ Introduction to Design Thinking
-              </span>
+              <span className="font-bold">Introduction to Design Thinking</span>
             </li>
             <li className="indent-1">
-              <span className="font-bold">▶ Data Science Foundations</span>
+              <span className="font-bold">Data Science Foundations</span>
             </li>
             <li>
               <span>The Interns Hub</span>
             </li>
             <li className="indent-1">
               <span className="font-bold">
-                ▶ Certificate of Internship Completion
+                Certificate of Internship Completion
               </span>
             </li>
           </ul>

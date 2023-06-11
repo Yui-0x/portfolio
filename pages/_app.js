@@ -73,15 +73,16 @@ export default function App({ Component, pageProps, isVisible }) {
           initial={{ opacity: 0 }}
         >
           <main
-            style={{
-              backgroundImage: "url('/cat1.gif')",
-              backgroundSize: "35%",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
+            // style={{
+            //   backgroundImage: "url('/stars.gif')",
+            //   backgroundSize: "35%",
+            //   backgroundPosition: "center",
+            //   backgroundRepeat: "no-repeat",
+
+            // }}
             className="fixed top-0 left-0 z-[99] min-h-screen h-full w-full flex justify-center items-center ease-out delay-150"
           >
-            <div className=" w-[94%] h-[90vh] p-4 border-2 border-primary flex flex-col lg:grid lg:grid-cols-6 gap-5">
+            <div className=" w-[94%] h-[90vh] p-2 lg:p-4 border-2 border-primary flex flex-col lg:grid lg:grid-cols-6 lg:gap-5">
               <div className=" flex flex-row justify-between lg:flex-col lg:justify-center lg:col-span-2 mb-5 lg:mb-0">
                 <Navbar />
               </div>
